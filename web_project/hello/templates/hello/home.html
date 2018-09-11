@@ -1,0 +1,32 @@
+{% extends "hello/layout.html" %}
+{% block title %}
+Home
+{% endblock %}
+{% block content %}
+<h2>Logged messages</h2>
+
+{% if message_list %}
+<table class="message_list">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Message</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for message in message_list %}
+        <tr>
+            <td>{{ message.log_date | date:'d M Y' }}</td>
+            <td>{{ message.log_date | date:'H:i:s' }}</td>
+            <td>
+                {{ message.message }}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>No messages have been logged. Use the <a href="{% url 'log' %}">Log Message form</a>.</p>
+{% endif %}
+{% endblock %}
