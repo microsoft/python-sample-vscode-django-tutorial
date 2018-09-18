@@ -119,3 +119,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# The location where the collectstatic command collects static files from apps.
+# A dedicated static file server is typically used in production to serve files
+# from this location, rather than relying on the app server to serve those files
+# from various locations in the app. Doing so results in better overall performance.
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_collected')
