@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <title>Hello, Django</title>
         {% load static %}
-        <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}" />                
+        <link rel="stylesheet" type="text/css" href="{% static 'hello/site.css' %}" />                
     </head>
     <body>
         <span class="message">Hello, there {{ name }}!</span> It's {{ date | date:'l, d F, Y' }} at {{ date | time:'H:i:s' }}.
