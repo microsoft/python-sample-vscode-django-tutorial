@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import LogMessage
+from hello.models import LogMessage
 
 
 class LogMessageForm(forms.ModelForm):

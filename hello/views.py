@@ -1,11 +1,10 @@
 from datetime import datetime
 
-from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from django.views.generic import ListView
 
-from .forms import LogMessageForm
-from .models import LogMessage
+from hello.forms import LogMessageForm
+from hello.models import LogMessage
 
 
 # def home(request):

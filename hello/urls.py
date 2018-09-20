@@ -1,7 +1,7 @@
 from django.urls import path
 
-from . import views
-from .models import LogMessage
+from hello import views
+from hello.models import LogMessage
 
 urlpatterns = [
     path(
