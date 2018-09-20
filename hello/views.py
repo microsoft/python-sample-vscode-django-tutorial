@@ -7,7 +7,6 @@ from django.views.generic import ListView
 from .forms import LogMessageForm
 from .models import LogMessage
 
-print("http://localhost:8000/hello/VSCode")
 
 # def home(request):
 #     return render(request, 'hello/home.html')
