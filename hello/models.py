@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class LogMessage(models.Model):
     message = models.CharField(max_length=300)
     log_date = models.DateTimeField("date logged")
