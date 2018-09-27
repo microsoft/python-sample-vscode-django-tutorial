@@ -23,8 +23,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '2gult1d96#@#b2%tz+k9x1q%-4(%f@va-!sbv*q&$t^gpp8-_='
 
 # SECURITY WARNING: don't run with debug turned on in production!
+# If you set to False, also add "localhost" to ALLOWED_HOSTS or else
+# you'll get "Bad Request" when running locally.
 DEBUG = True
 
+# When deploying to Azure App Service, add you <name>.azurewebsites.net 
+# domain to ALLOWED_HOSTS; you get an error message if you forget.
 ALLOWED_HOSTS = []
 
 
