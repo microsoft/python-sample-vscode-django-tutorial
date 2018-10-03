@@ -32,21 +32,6 @@
             "django": true
         },
         {
-            "name": "Python: Flask",
-            "type": "python",
-            "request": "launch",
-            "module": "flask",
-            "env": {
-                "FLASK_APP": "app.py"
-            },
-            "args": [
-                "run",
-                "--no-debugger",
-                "--no-reload"
-            ],
-            "jinja": true
-        },
-        {
             "name": "Python: Current File (External Terminal)",
             "type": "python",
             "request": "launch",
