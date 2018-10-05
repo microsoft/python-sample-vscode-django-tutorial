@@ -29,8 +29,10 @@ DEBUG = True
 
 # When deploying to Azure App Service, add you <name>.azurewebsites.net 
 # domain to ALLOWED_HOSTS; you get an error message if you forget.
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    'localhost',
+    'vscode-django-sample.azurewebsites.net'  # Sample name only!
+]
 
 # Application definition
 
