@@ -6,8 +6,6 @@ from django.views.generic import ListView
 from hello.forms import LogMessageForm
 from hello.models import LogMessage
 
-# def home(request):
-#     return render(request, 'hello/home.html')
 
 class HomeListView(ListView):
     """Renders the home page, with a list of all polls."""
@@ -19,12 +17,18 @@ class HomeListView(ListView):
         return context
 
 def about(request):
+    """Renders the about page."""
     return render(request, "hello/about.html")
 
 def contact(request):
+    """Renders the contact page."""
     return render(request, "hello/contact.html")
 
 def hello_there(request, name):
+    """Renders the hello_there page.
+    Args:
+        name: Name to say hello to
+    """
     return render(
         request, "hello/hello_there.html", {"name": name, "date": datetime.now()}
     )
