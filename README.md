@@ -15,7 +15,7 @@ Contributions to the sample are welcome. When submitting changes, also consider 
 
 # Known issues
 
-- CSS is lost when debug == false: the workaround is to include an added script at the end of dockerfile.txt. See [Issue 13](https://github.com/Microsoft/python-sample-vscode-django-tutorial/issues/13) for details.
+- CSS is lost if you set `DEBUG=False` in settings.py; the workaround is to include an added script at the end of dockerfile.txt to serve static file differently. See [Issue 13](https://github.com/Microsoft/python-sample-vscode-django-tutorial/issues/13) for details.
 
 # Contributing
 
