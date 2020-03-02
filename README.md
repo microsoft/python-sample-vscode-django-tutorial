@@ -1,14 +1,15 @@
 This sample contains the completed program from the tutorial, [Using Django in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-django). Intermediate steps are not included.
 
-The sample also includes a Dockerfile to build a production-ready container image that uses uwsgi and nginx; the uwsgi.ini file provides uwsgi configuration.
+* This application is ready to be Dockerized and run in a container. For steps, see [Python in containers](https://code.visualstudio.com/docs/python/tutorial-deploy-containers).
 
 To run the sample:
 
-1. Create a virtual environment as described in the tutorial.
-1. Install packages with `pip install -r requirements.txt`.
-1. Activate the virtual environment by running `source env/bin/activate` (Linux/MacOS) or `env\scripts\activate` (Windows).
-1. Create and initialize the database by running `python manage.py migrate`.
-1. Create a superuser as described at the end of the tutorial.
+1. In VS Code Terminal, run `python -m venv env` to create a virtual environment as described in the tutorial.
+2. Press Ctrl + Shift + P and select command `Python: Select Interpreter`
+3. Activate the virtual environment by running `source env/bin/activate` (Linux/MacOS) or `env/scripts/activate` (Windows).
+4. In terminal, run `pip install django`.
+5. Create and initialize the database by running `python manage.py migrate`.
+6. From Run and Debug section, select `Python: Django` task and hit F5.
 
 Contributions to the sample are welcome. When submitting changes, also consider submitting matching changes to the tutorial, the source file for which is [tutorial-django.md]
 (https://github.com/Microsoft/vscode-docs/blob/master/docs/python/tutorial-django.md).
