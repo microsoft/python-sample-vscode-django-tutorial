@@ -1,6 +1,6 @@
 This sample contains the completed program from the tutorial, [Using Django in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-django). Intermediate steps are not included.
 
-* This application is ready to be Dockerized and run in a container. For steps, see [Python in containers](https://code.visualstudio.com/docs/python/tutorial-deploy-containers).
+* This sample is ready to be Dockerized and run in a container. For steps, see [Python in containers](https://code.visualstudio.com/docs/containers/quickstart-python).
 
 To run the sample:
 
