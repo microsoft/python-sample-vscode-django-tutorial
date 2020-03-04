@@ -11,8 +11,7 @@ To run the sample:
 5. Create and initialize the database by running `python manage.py migrate`.
 6. From Run and Debug section, select `Python: Django` task and hit F5.
 
-Contributions to the sample are welcome. When submitting changes, also consider submitting matching changes to the tutorial, the source file for which is [tutorial-django.md]
-(https://github.com/Microsoft/vscode-docs/blob/master/docs/python/tutorial-django.md).
+Contributions to the sample are welcome. When submitting changes, also consider submitting matching changes to the tutorial, the source file for which is [tutorial-django.md](https://github.com/Microsoft/vscode-docs/blob/master/docs/python/tutorial-django.md).
 
 # Known issues
 
