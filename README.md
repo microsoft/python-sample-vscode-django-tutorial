@@ -1,6 +1,6 @@
 # Python/Django Tutorial Sample for VS Code
 
-* This sample contains the completed program from the tutorial, [Using Django in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-django). Intermediate steps are not included.
+* This sample contains the completed program from the tutorial [Using Django in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-django). Intermediate steps are not included.
 
 To run the sample:
 
