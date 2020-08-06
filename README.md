@@ -6,7 +6,7 @@ To run the sample:
 
 1. In VS Code Terminal, run `python -m venv env` to create a virtual environment as described in the tutorial.
 2. Press Ctrl + Shift + P and select command `Python: Select Interpreter`.
-3. Activate the virtual environment by running `source env/bin/activate` (Linux/MacOS) or `env/scripts/activate` (Windows).
+3. Activate the virtual environment by running `env/scripts/activate` if you are on Windows or run `source env/bin/activate` if you are on Linux/MacOS.
 4. In terminal, run `pip install django`.
 5. Create and initialize the database by running `python manage.py migrate`.
 6. From Run and Debug section, select `Python: Django` launch configuration and hit F5.
