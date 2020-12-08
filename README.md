@@ -4,7 +4,7 @@
 
 To run the sample:
 
-1. Clone the repo by running 'git clone -b tutorial https://github.com/microsoft/python-sample-vscode-django-tutorial.git'
+1. Clone the repo by running `git clone -b tutorial https://github.com/microsoft/python-sample-vscode-django-tutorial.git`
 2. In VS Code Terminal, run `python -m venv env` to create a virtual environment as described in the tutorial.
 3. Press Ctrl + Shift + P and run command `Python: Select Interpreter`. If possible, select the interpreter ending with "('env': venv)"
 4. Activate the virtual environment by running `env/scripts/activate` if you are on Windows or run `source env/bin/activate` if you are on Linux/MacOS.
