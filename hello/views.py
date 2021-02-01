@@ -1,6 +1,5 @@
-from datetime import datetime
-
 from django.shortcuts import redirect, render
+from django.utils.timezone import datetime
 from django.views.generic import ListView
 
 from hello.forms import LogMessageForm
