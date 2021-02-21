@@ -10,8 +10,7 @@ To run the sample:
 1. Create and initialize the database by running `python manage.py migrate`.
 1. Create a superuser as described at the end of the tutorial.
 
-Contributions to the sample are welcome. When submitting changes, also consider submitting matching changes to the tutorial, the source file for which is [tutorial-django.md]
-(https://github.com/Microsoft/vscode-docs/blob/master/docs/python/tutorial-django.md).
+Contributions to the sample are welcome. When submitting changes, also consider submitting matching changes to the tutorial, the source file for which is [tutorial-django.md](https://github.com/Microsoft/vscode-docs/blob/master/docs/python/tutorial-django.md).
 
 # Known issues
 
