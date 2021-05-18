@@ -1,4 +1,5 @@
 from datetime import datetime
+from django.http.response import HttpResponse
 
 from django.shortcuts import redirect, render
 from django.views.generic import ListView
@@ -49,3 +50,7 @@ def log_message(request):
             return render(request, "hello/log_message.html", {"form": form})
     else:
         return render(request, "hello/log_message.html", {"form": form})
+
+
+def test_docker(request):
+    return HttpResponse("Testing Docker!")

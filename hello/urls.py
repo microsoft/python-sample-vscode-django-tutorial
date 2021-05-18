@@ -15,4 +15,5 @@ urlpatterns = [
     path("about/", views.about, name="about"),
     path("contact/", views.contact, name="contact"),
     path("log/", views.log_message, name="log"),
+    path("test_docker/", views.test_docker),
 ]
