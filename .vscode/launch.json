@@ -6,21 +6,21 @@
     "configurations": [
         {
             "name": "Python: Current File (Integrated Terminal)",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
         },
         {
             "name": "Python: Attach",
-            "type": "python",
+            "type": "debugpy",
             "request": "attach",
             "port": 5678,
             "host": "localhost"
         },
         {
             "name": "Python: Django",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/manage.py",
             "console": "integratedTerminal",
@@ -33,7 +33,7 @@
         },
         {
             "name": "Python: Current File (External Terminal)",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${file}",
             "console": "externalTerminal"
