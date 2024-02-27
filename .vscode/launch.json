@@ -5,20 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File (Integrated Terminal)",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
-            "name": "Python: Attach",
-            "type": "debugpy",
-            "request": "attach",
-            "port": 5678,
-            "host": "localhost"
-        },
-        {
             "name": "Python: Django",
             "type": "debugpy",
             "request": "launch",
@@ -30,13 +16,6 @@
                 "--nothreading"
             ],
             "django": true
-        },
-        {
-            "name": "Python: Current File (External Terminal)",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}",
-            "console": "externalTerminal"
         }
     ]
 }
